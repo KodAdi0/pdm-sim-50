@@ -1,0 +1,110 @@
+{
+  "n_aircraft": 50,
+  "seats_min": 28,
+  "seats_max": 36,
+  "start_date": "2021-10-19",
+  "years": 5.0,
+  "seed": 42,
+  "p_longhaul": 0.6,
+  "lh_flights_mean": 1.1,
+  "lh_dur": [
+    8.0,
+    13.0
+  ],
+  "mh_flights_mean": 2.0,
+  "mh_dur": [
+    3.0,
+    6.0
+  ],
+  "p_ground_day": 0.02,
+  "check_interval": [
+    30,
+    60
+  ],
+  "load_factor_ab": [
+    8.0,
+    2.0
+  ],
+  "trk_moves_base": 3.0,
+  "trk_moves_per_hour": 0.6,
+  "prv_moves_per_flight": 1.2,
+  "nominal_time_s": [
+    12.0,
+    6.0
+  ],
+  "mode_probs": [
+    0.4,
+    0.25,
+    0.15,
+    0.2
+  ],
+  "weibull_shape": [
+    3.0,
+    2.0,
+    2.5,
+    1.8
+  ],
+  "weibull_scale_trk": [
+    22000.0,
+    35000.0,
+    30000.0,
+    40000.0
+  ],
+  "prv_scale_factor": 0.22,
+  "degr_exponent": [
+    3.0,
+    4.0,
+    3.0,
+    2.5
+  ],
+  "initial_age_max_trk": 15000.0,
+  "p_pax_jam": 0.0012,
+  "p_base_timeout": 0.0003,
+  "oc_coef": [
+    0.004,
+    0.03,
+    0.006,
+    0.0
+  ],
+  "oc_pow": [
+    4,
+    5,
+    4,
+    1
+  ],
+  "to_coef": [
+    0.01,
+    0.003,
+    0.002,
+    0.004
+  ],
+  "to_pow": [
+    4,
+    4,
+    3,
+    3
+  ],
+  "p_pos_coef": 0.02,
+  "p_ot_coef": 0.01,
+  "current_gain": 35.0,
+  "base_current": [
+    55.0,
+    5.0
+  ],
+  "ecu_power_rate_yr": 0.025,
+  "ecu_comm_rate_yr": 0.03,
+  "ecu_power_fail_days": 45.0,
+  "ecu_comm_removal_days": 30.0,
+  "repair_p_per_day": 0.5,
+  "p_complaint_removal": 0.008,
+  "l1_jam_threshold": 1,
+  "nff_threshold_D": 0.6,
+  "p_power_confirmed": 0.6,
+  "p_comm_confirmed": 0.25,
+  "p_missing_download": 0.02,
+  "l1_poll_min": 5,
+  "flush_every_days": 30,
+  "n_seats_total": 1600,
+  "n_actuators_total": 3200,
+  "n_days": 1825
+}
